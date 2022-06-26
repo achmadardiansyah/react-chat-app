@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar-thumb {
+    background: #e0cbcb;
+    border-radius: 100vh;
 }
 
-* {
-  box-sizing: border-box;
+::-webkit-scrollbar-thumb:hover {
+    background: #c0a0b9;
 }
