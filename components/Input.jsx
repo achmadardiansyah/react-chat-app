@@ -42,7 +42,7 @@ const Input = ({ chatData }) => {
     };
 
     return ( 
-        <div className="flex flex-col md:flex-row md:h-[80vh] h-[90vh] md:w-[40vw] w-[60vw]">
+        <div className="flex flex-col md:flex-row md:h-[80vh] h-[90vh] md:w-[40vw] w-[85vw]">
             <div className="md:h-[80vh] h-[100%] w-[100%] border-r  bg-blue-300">
                 <div className="md:h-[10vh] h-[10vh] px-3 flex justify-between items-center bg-blue-700">
                     <div className="text-white">
