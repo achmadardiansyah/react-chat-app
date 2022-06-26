@@ -14,7 +14,7 @@ const ChatRoom = ({ chatData }) => {
             </Head>
 
             <div className='bg-[#06283D] h-[100vh] flex md:flex-row flex-col items-center justify-center'>
-                <div className='h-[90vh] md:h-[80vh] md:w-[40vw] w-[60vw] bg-white rounded-lg overflow-hidden'>
+                <div className='h-[90vh] md:h-[80vh] md:w-[40vw] w-[85vw] bg-white rounded-lg overflow-hidden'>
                     <Input chatData={chatData}  />
                 </div>
             </div>
